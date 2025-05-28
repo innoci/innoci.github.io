@@ -76,3 +76,9 @@ jobs:
       - name: 部署到GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        with:
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}  # 你的个人访问令牌
+        EXTERNAL_REPOSITORY: innoci/innoci.github.io  # 你的GitHub Pages仓库
+        PUBLISH_BRANCH: main  # 或者是你的GitHub Pages分支
+        PUBLISH_DIR: ./
+        commit_message: ${{ github.event.head_commit.message }}
