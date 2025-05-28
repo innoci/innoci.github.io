@@ -1,8 +1,8 @@
 baseurl: https://innoci.github.io
 languageCode: en-us
 theme: hugo-theme-stack
-title: KoooB
-copyright: KoooB
+title: KooB
+copyright: KooB
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -15,26 +15,18 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: koob
         weight: 1
         params:
             sidebar:
-                subtitle: Example description
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-        params:
-            sidebar:
-                subtitle: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
+                subtitle: eeeeeeeeeeee
+    # zh-cn:
+    #     languageName: 中文
+    #     title: koob
+    #     weight: 2
+    #     params:
+    #         sidebar:
+    #             subtitle: 昂卡
 
 services:
     # Change it to your Disqus shortname before using
@@ -84,7 +76,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: giscus
 
         disqusjs:
             shortname:
@@ -145,13 +137,13 @@ params:
             siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme:
+            repo: "innoci/innoci.github.io"
+            repoID: "R_kgDOOx5V-g"
+            category: "Announcements"
+            categoryID: "DIC_kwDOOx5V-s4CqrsR"
+            mapping: "pathname"
+            lightTheme: "dark"
+            darkTheme: "dark"
             reactionsEnabled: 1
             emitMetadata: 0
 
@@ -217,7 +209,7 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/innoci
           params:
               icon: brand-github
 

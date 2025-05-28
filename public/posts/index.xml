@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Example Site</title>
+        <title>Posts on koob</title>
         <link>http://localhost:1313/posts/</link>
-        <description>Recent content in Posts on Example Site</description>
+        <description>Recent content in Posts on koob</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>KoooB</copyright>
+        <copyright>KooB</copyright>
         <lastBuildDate>Wed, 28 May 2025 16:03:31 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My First Post</title>
         <link>http://localhost:1313/posts/my-first-post/</link>
