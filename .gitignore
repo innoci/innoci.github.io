@@ -1,7 +1,7 @@
-# Generated files by hugo
-public/*
-resources/*
-assets/jsconfig.json
+# # Generated files by hugo
+# public/*
+# resources/*
+# assets/jsconfig.json
 
-# Temporary lock file while building
-.hugo_build.lock
+# # Temporary lock file while building
+# .hugo_build.lock
